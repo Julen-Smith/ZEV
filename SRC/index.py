@@ -1,14 +1,16 @@
 import discord
 import time
 from discord.ext import commands
-import json
 import datetime
-from discord import FFmpegPCMAudio
-import random
 from urllib import parse, request
 import re
+import Bot.responseCommands
+import Data.gestionxml
+import Utils.check
+import Obj.Player
 
 ver = "Version 0.1"
+
 bot = commands.Bot(command_prefix='!', description ="Command prefix")
 
 @bot.command()
@@ -92,24 +94,6 @@ async def king(ctx):
     embed.add_field(name='\u200b', value="Ranking No implementado" + "\n\u200b")
     await ctx.send(embed=embed)
 
-
-#Fin comandos de menú
-
-class Jugador:
-    def __init__(self, nombre, lv, exp, rol, lasthunt, lastfish, lastdungeon, lastsupport, inv):
-        self.nombre = nombre
-        self.lasthunt = lasthunt
-        self.lv = lv
-        self.exp = exp
-        self.rol = rol
-        self.lastfish = lastfish
-        self.lastdungeon = lastdungeon
-        self.lastsupport = lastsupport
-        self.inv = inv
-
-colm = Jugador("Colm",99,1000000,"Monk",None,None,None,None,None)
-
-
 @bot.command()
 async def start(ctx):
     member = ctx.author
@@ -129,15 +113,6 @@ async def start(ctx):
     message = await bot.wait_for('message', check=check_clase(ctx.author,ctx), timeout=30)
     await ctx.send("Has escogido la clase " + message.content)
 
-def check_clase(author,ctx):
-    def inner_check(message):
-        if message.content == "Ladrón" :
-             return message.author == author and message.content == "Ladrón"
-        elif message.content == "Mago" :
-            return message.author == author and message.content == "Mago"
-        elif message.content == "Mercenario" :
-            return message.author == author and message.content == "Mercenario"
-    return inner_check
 
 
 @bot.command()
@@ -160,8 +135,10 @@ async def ping(ctx):
     embed.add_field(name= "Despliegue correcto.", value ="Todos los servicios estan activos.")
     await ctx.send(embed=embed)
 
+
 @bot.event
 async def on_ready():
     await bot.change_presence(activity=discord.Game(name="ZEV", timestamp = datetime.datetime.utcnow()))
     print('Succesfully connected')
-bot.run('OTI1OTU2MjA5NDM2MTQzNjY3.Yc0p6w.GNkUStTyAzqnPH2ywPjMK7b0xVI')
+bot.run('OTI1OTU2MjA5NDM2MTQzNjY3.Yc0p6w.vy09l0JIeSJoWPfL7CCFUawRR8E')
+#Fin comandos de menú
