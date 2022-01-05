@@ -1,0 +1,4 @@
+import gestionxml
+
+gestionxml.openxml()
+
