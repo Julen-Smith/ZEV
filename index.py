@@ -164,4 +164,4 @@ async def ping(ctx):
 async def on_ready():
     await bot.change_presence(activity=discord.Game(name="ZEV", timestamp = datetime.datetime.utcnow()))
     print('Succesfully connected')
-bot.run('OTI1OTU2MjA5NDM2MTQzNjY3.Yc0p6w.GNkUStTyAzqnPH2ywPjMK7b0xVI')
+bot.run('#######################')
