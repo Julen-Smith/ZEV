@@ -4,27 +4,25 @@
 ![camille-unknown-dark-castle](https://user-images.githubusercontent.com/55221433/148776357-c32475fd-0565-415c-a10a-9523388ca056.gif)
 
 
-Concepto
+**Concepto**
 
 Existe algún que otro bot rpg para discord por ello el plan para este proyecto es darle una vuelta de rosca más a la idea.
 
 Por eso sin extenderme mucho anotaré los conceptos básicos.
 
--Partidas cortas 1-2 semanas. Después Wipe.
+>Partidas cortas 1-2 semanas. Después Wipe.
 
--8 bosses en el bosque.
+>8 bosses en el bosque.
 
--3 Clases Principales, Se derivan a otras 3 clases, y cada una de esas clases deriva a otras 3.
+>3 Clases Principales, Se derivan a otras 3 clases, y cada una de esas clases deriva a otras 3.
 
--Minijuegos/Enigmas, para entrar a algunas dungeons por ejemplo hará falta un código, el bot se meterá aleatoriamente a ciertas 
+>Minijuegos/Enigmas, para entrar a algunas dungeons por ejemplo hará falta un código, el bot se meterá aleatoriamente a ciertas 
 horas del día a la sala del servidor con mas miembros activos escupiendo el código en cuanto el primer boss haya caido (Por 
-ejemplo).
+ejemplo). Obviamente, solo a usuarios verificados con los emotes.
 
-Obviamente, solo a usuarios verificados con los emotes.
+**Roadmap**
 
-Roadmap
-
-[No jugable]
+>[No jugable]
 
 Creación de bases y Comandos Async. ✔️
 
@@ -34,18 +32,18 @@ Guardado y gestión de los timestamps de los jugadores. ❌
 
 Relación jugador entorno, mobs, items, drops etc. ❌
 
-[Jugable]
+>[Jugable]
 
 Bosses y dungeons. ❌
 
 Minijuegos.❌
 
-[Version 1.0]
+>[Version 1.0]
 
 Ladder (sistema de ELO?) y leaderboards. ❌
 
 
-[?????]
+>[?????]
 
 
 Optimización para aws ❌
