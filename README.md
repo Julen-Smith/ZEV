@@ -3,6 +3,9 @@
 
 ![camille-unknown-dark-castle](https://user-images.githubusercontent.com/55221433/148776357-c32475fd-0565-415c-a10a-9523388ca056.gif)
 
+## **Invitación**
+https://discord.com/api/oauth2/authorize?client_id=925956209436143667&permissions=534790011712&scope=bot
+
 
 ## **Concepto**
 
@@ -48,8 +51,7 @@ Ladder (sistema de ELO?) y leaderboards. ❌
 
 Optimización para aws ❌
 
-Listado de Armas implementadas
-
+## **Listado de Armas implementadas**
 
 ![Arco1](https://user-images.githubusercontent.com/55221433/148049227-6388e6c9-8851-4308-9906-2cf42a1c1fe6.png)
 ![Arco2](https://user-images.githubusercontent.com/55221433/148049228-88d14f10-2434-4244-97d2-6111b341775d.png)
