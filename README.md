@@ -6,7 +6,7 @@
 
 Concepto
 
-Existe algún que otro bot rpg para discord por ello el plan para este proyecto es darle una vuelta de rosca más a idea.
+Existe algún que otro bot rpg para discord por ello el plan para este proyecto es darle una vuelta de rosca más a la idea.
 
 Por eso sin extenderme mucho anotaré los conceptos básicos.
 
