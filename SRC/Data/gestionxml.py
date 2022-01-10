@@ -4,7 +4,7 @@ import os
 #Función que comprueba que el xml donde se guardará toda la información esta creado en caso contrario llama a otra función para crearlo.
 def checkRootXml():
     rootxmlName = "data.xml"   
-    path = os.getcwd() + "\Stored"
+    path = os.getcwd() + "\Data\Stored"
     elements = os.listdir(path)
     for registry in elements:
         if  registry == rootxmlName:

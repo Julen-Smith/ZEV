@@ -1,3 +1,4 @@
+from Data.gestionxml import checkRootXml
 import discord
 import time
 from discord.ext import commands
@@ -9,9 +10,15 @@ import Data.gestionxml
 import Utils.check
 import Obj.Player
 
+
 ver = "Version 0.1"
 
 bot = commands.Bot(command_prefix='!', description ="Command prefix")
+
+
+
+checkRootXml()
+
 
 @bot.command()
 async def menu(ctx):
@@ -97,7 +104,7 @@ async def king(ctx):
 @bot.command()
 async def start(ctx):
     member = ctx.author
-    with open('pt.gif', 'rb') as f: picture = discord.File(f)
+    with open('../Assets/pt.gif', 'rb') as f: picture = discord.File(f)
     await ctx.send(file=picture)
     await ctx.send("Clases alpha")
     embed = discord.Embed(color=discord.Color.blue())
@@ -117,16 +124,16 @@ async def start(ctx):
 
 @bot.command()
 async def arcos(ctx):
-    await ctx.send("Lv 3" , file=discord.File('Weapons/Arco1.png'))
-    await ctx.send("Lv 6" , file=discord.File('Weapons/Arco2.png'))
-    await ctx.send("Lv 9" , file=discord.File('Weapons/Arco3.png'))
-    await ctx.send("Lv 12", file=discord.File('Weapons/Arco4.png'))
-    await ctx.send("Lv 15", file=discord.File('Weapons/Arco5.png'))
+    await ctx.send("Lv 3" , file=discord.File('../Weapons/Arco1.png'))
+    await ctx.send("Lv 6" , file=discord.File('../Weapons/Arco2.png'))
+    await ctx.send("Lv 9" , file=discord.File('../Weapons/Arco3.png'))
+    await ctx.send("Lv 12", file=discord.File('../Weapons/Arco4.png'))
+    await ctx.send("Lv 15", file=discord.File('../Weapons/Arco5.png'))
 
 
 @bot.command()
 async def start_assassin(ctx):
-    with open('colm.gif', 'rb') as f: picture = discord.File(f)
+    with open('../Assets/assa.gif', 'rb') as f: picture = discord.File(f)
     await ctx.send(file=picture)
 
 @bot.command()
@@ -140,5 +147,5 @@ async def ping(ctx):
 async def on_ready():
     await bot.change_presence(activity=discord.Game(name="ZEV", timestamp = datetime.datetime.utcnow()))
     print('Succesfully connected')
-bot.run('OTI1OTU2MjA5NDM2MTQzNjY3.Yc0p6w.vy09l0JIeSJoWPfL7CCFUawRR8E')
+bot.run('OTI1OTU2MjA5NDM2MTQzNjY3.Yc0p6w.sVI6F8EplbB6A97IHm5OcMhlrG8')
 #Fin comandos de menú
