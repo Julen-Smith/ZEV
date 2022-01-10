@@ -15,11 +15,6 @@ ver = "Version 0.1"
 
 bot = commands.Bot(command_prefix='!', description ="Command prefix")
 
-
-
-checkRootXml()
-
-
 @bot.command()
 async def menu(ctx):
     embed = discord.Embed(title="Comandos", timestamp= datetime.datetime.utcnow(), color=discord.Color.red())
@@ -34,10 +29,16 @@ async def menu(ctx):
     embed.add_field(name =  "Cambio de clase",  value ="!rolupdate")
     embed.add_field(name =  "Ranking",  value ="!king")
     embed.add_field(name =  "Listado de arcos",  value ="!arcos")
-   #embed.set_thumbnail(url="https://geekland.eu/wp-content/uploads/2020/04/usar-y-configurar-el-historial-de-comandos-history-1280x720.png")
     await ctx.send(embed=embed)
 
 #Comandos de menú
+
+@bot.command()
+async def init_server(ctx):
+    serverid = ctx.guild.id
+    await ctx.send("Server con identificación " + str(serverid))
+
+
 
 @bot.command()
 async def c(ctx):
@@ -117,7 +118,7 @@ async def start(ctx):
     embed.add_field(name='\u200b', value="Mercenario" + "\n\u200b")
     await ctx.send(embed=embed)
     member = ctx.author
-    message = await bot.wait_for('message', check=check_clase(ctx.author,ctx), timeout=30)
+    message = await bot.wait_for('message', check= Utils.check_clase(ctx.author,ctx), timeout=30)
     await ctx.send("Has escogido la clase " + message.content)
 
 
@@ -147,5 +148,5 @@ async def ping(ctx):
 async def on_ready():
     await bot.change_presence(activity=discord.Game(name="ZEV", timestamp = datetime.datetime.utcnow()))
     print('Succesfully connected')
-bot.run('OTI1OTU2MjA5NDM2MTQzNjY3.Yc0p6w.sVI6F8EplbB6A97IHm5OcMhlrG8')
+bot.run('OTI1OTU2MjA5NDM2MTQzNjY3.Yc0p6w.YDARuJ-TgqGh2XAZdJf3Gb6T8wQ')
 #Fin comandos de menú
