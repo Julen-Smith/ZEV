@@ -4,7 +4,7 @@
 ![camille-unknown-dark-castle](https://user-images.githubusercontent.com/55221433/148776357-c32475fd-0565-415c-a10a-9523388ca056.gif)
 
 
-**Concepto**
+## **Concepto**
 
 Existe algún que otro bot rpg para discord por ello el plan para este proyecto es darle una vuelta de rosca más a la idea.
 
@@ -20,7 +20,7 @@ Por eso sin extenderme mucho anotaré los conceptos básicos.
 horas del día a la sala del servidor con mas miembros activos escupiendo el código en cuanto el primer boss haya caido (Por 
 ejemplo). Obviamente, solo a usuarios verificados con los emotes.
 
-**Roadmap**
+## **Roadmap**
 
 >[No jugable]
 
