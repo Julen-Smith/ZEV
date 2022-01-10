@@ -1,5 +1,10 @@
 # ZEV
 
+
+camille-unknown-dark-castle.gif
+
+
+
 Concepto
 
 Existe algún que otro bot rpg para discord por ello el plan para este proyecto es darle una vuelta de rosca más a idea.
