@@ -5,6 +5,9 @@
 
 ## **Invitación**
 https://discord.com/api/oauth2/authorize?client_id=925956209436143667&permissions=534790011712&scope=bot
+Permisos solicitados
+![image](https://user-images.githubusercontent.com/55221433/148778927-8cf14330-6000-4951-8327-e7be7e4ce3ea.png)
+
 
 
 ## **Concepto**
