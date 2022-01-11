@@ -1,3 +1,4 @@
+from os import read
 from Data.gestionxml import checkRootXml
 import discord
 import time
@@ -35,7 +36,9 @@ async def menu(ctx):
 
 @bot.command()
 async def init_server(ctx):
-    serverid = ctx.guild.id
+    serverid = ctx.guild.id  
+    Data.gestionxml.init_xml_structure(serverid)
+   # Data.gestionxml.read_xml()
     await ctx.send("Server con identificación " + str(serverid))
 
 
@@ -125,13 +128,13 @@ async def start(ctx):
 
 @bot.command()
 async def arcos(ctx):
-    await ctx.send("Lv 3" , file=discord.File('../Weapons/Arco1.png'))
-    await ctx.send("Lv 6" , file=discord.File('../Weapons/Arco2.png'))
-    await ctx.send("Lv 9" , file=discord.File('../Weapons/Arco3.png'))
-    await ctx.send("Lv 12", file=discord.File('../Weapons/Arco4.png'))
-    await ctx.send("Lv 15", file=discord.File('../Weapons/Arco5.png'))
+    await ctx.send("Lv 3" , file=discord.File('../../Weapons/Arco1.png'))
+    await ctx.send("Lv 6" , file=discord.File('../../Weapons/Arco2.png'))
+    await ctx.send("Lv 9" , file=discord.File('../../Weapons/Arco3.png'))
+    await ctx.send("Lv 12", file=discord.File('../../Weapons/Arco4.png'))
+    await ctx.send("Lv 15", file=discord.File('../../Weapons/Arco5.png'))
 
-
+c
 @bot.command()
 async def start_assassin(ctx):
     with open('../Assets/assa.gif', 'rb') as f: picture = discord.File(f)
@@ -146,7 +149,8 @@ async def ping(ctx):
 
 @bot.event
 async def on_ready():
-    await bot.change_presence(activity=discord.Game(name="ZEV", timestamp = datetime.datetime.utcnow()))
+    await bot.change_presence(activity=discord.Game(name= "Proximo Wipe : 20-10-2022"))
+    #checkRootXml()
     print('Succesfully connected')
-bot.run('OTI1OTU2MjA5NDM2MTQzNjY3.Yc0p6w.YDARuJ-TgqGh2XAZdJf3Gb6T8wQ')
+bot.run('OTI1OTU2MjA5NDM2MTQzNjY3.Yc0p6w.rDj_ddG_7ATv7pzFifXM1ldxa4M')
 #Fin comandos de menú
