@@ -156,5 +156,5 @@ async def on_ready():
     await bot.change_presence(activity=discord.Game(name= "Proximo Wipe : 20-10-2022"))
     #checkRootXml()
     print('Succesfully connected')
-bot.run('OTI1OTU2MjA5NDM2MTQzNjY3.Yc0p6w.7BARMV4D96eckwxOdVQBm5cqlcw')
+bot.run('################################################################')
 #Fin comandos de menú
