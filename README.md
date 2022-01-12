@@ -25,7 +25,9 @@ Por eso sin extenderme mucho anotaré los conceptos básicos.
 horas del día a la sala del servidor con mas miembros activos escupiendo el código en cuanto el primer boss haya caido (Por 
 ejemplo). Obviamente, solo a usuarios verificados con los emotes.
 
-![jsh](https://user-images.githubusercontent.com/55221433/149016335-fde115cf-781c-43f7-842a-c71508eb3446.gif)
+## **Animaciones personajes**
+>[Ataque básico]
+>![jshba](https://user-images.githubusercontent.com/55221433/149081805-64b6e67f-e11a-48e8-a5c2-4b1b9b76f27b.gif)
 
 
 ## **Roadmap**
