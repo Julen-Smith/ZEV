@@ -25,10 +25,13 @@ Por eso sin extenderme mucho anotaré los conceptos básicos.
 horas del día a la sala del servidor con mas miembros activos escupiendo el código en cuanto el primer boss haya caido (Por 
 ejemplo). Obviamente, solo a usuarios verificados con los emotes.
 
-## **Animaciones personajes**
+## **Ejemplos Animaciones personajes**
 >[Ataque básico] <br>
 >![jshba](https://user-images.githubusercontent.com/55221433/149081805-64b6e67f-e11a-48e8-a5c2-4b1b9b76f27b.gif)
-
+>[Crítico] <br>
+>![jshcrit](https://user-images.githubusercontent.com/55221433/149082557-c3169c0b-029f-4492-ba0e-50c5dd5b7160.gif)
+>[Esquiva] <br>
+>![jshdash](https://user-images.githubusercontent.com/55221433/149082815-45683caf-7195-40c0-9a9c-3b506c9f543d.gif)
 
 ## **Roadmap**
 
