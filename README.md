@@ -26,7 +26,7 @@ horas del día a la sala del servidor con mas miembros activos escupiendo el có
 ejemplo). Obviamente, solo a usuarios verificados con los emotes.
 
 ## **Animaciones personajes**
->[Ataque básico]
+>[Ataque básico] <br>
 >![jshba](https://user-images.githubusercontent.com/55221433/149081805-64b6e67f-e11a-48e8-a5c2-4b1b9b76f27b.gif)
 
 
