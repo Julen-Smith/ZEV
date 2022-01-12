@@ -37,9 +37,13 @@ async def menu(ctx):
 @bot.command()
 async def init_server(ctx):
     serverid = ctx.guild.id  
-    Data.gestionxml.init_xml_structure(serverid)
-   # Data.gestionxml.read_xml()
-    await ctx.send("Server con identificación " + str(serverid))
+    if Data.gestionxml.check_for_server_id(serverid):
+         await ctx.send("El servidor ya esta registrado.")
+    elif Data.gestionxml.register_new_server(serverid):
+        await ctx.send("El servidor ha sido registrado.")
+    else:
+        await ctx.send("Ha ocurrido algún tipo de error con el registro de tú servidor, contacta a Colm#7192.")
+    await ctx.send("Tu servidor será procesado con la identificación " + str(serverid) + ".")
 
 
 
@@ -152,5 +156,5 @@ async def on_ready():
     await bot.change_presence(activity=discord.Game(name= "Proximo Wipe : 20-10-2022"))
     #checkRootXml()
     print('Succesfully connected')
-bot.run('OTI1OTU2MjA5NDM2MTQzNjY3.Yc0p6w.rDj_ddG_7ATv7pzFifXM1ldxa4M')
+bot.run('OTI1OTU2MjA5NDM2MTQzNjY3.Yc0p6w.7BARMV4D96eckwxOdVQBm5cqlcw')
 #Fin comandos de menú
