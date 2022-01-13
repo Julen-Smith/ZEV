@@ -44,9 +44,9 @@ https://www.aseprite.org/
 
 Creación de bases y Comandos Async. ✔️
 
-Gestión de datos por servidores y jugadores. 🚧
+Gestión de datos por servidores y jugadores. ✔️
 
-Guardado y gestión de los timestamps de los jugadores. ❌
+Guardado y gestión de los timestamps de los jugadores.🚧
 
 Relación jugador entorno, mobs, items, drops etc. ❌
 
