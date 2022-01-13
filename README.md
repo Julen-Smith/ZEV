@@ -25,6 +25,14 @@ Por eso sin extenderme mucho anotaré los conceptos básicos.
 horas del día a la sala del servidor con mas miembros activos escupiendo el código en cuanto el primer boss haya caido (Por 
 ejemplo). Obviamente, solo a usuarios verificados con los emotes.
 
+
+## **Ejemplos Narrativa**
+La narrativa es conceptual, en principio serán montajes (texto + gif) que haga con embeds de discord y el tratamiento de las imágenes con Aseprite.<br> 
+En un futuro me gustaría actualizar todo esto a algo más viable. <br>
+https://www.aseprite.org/ <br>
+![image](https://user-images.githubusercontent.com/55221433/149410554-eba85e0b-202c-4894-9fe8-d7cad219b320.png)
+
+
 ## **Ejemplos Animaciones personajes**
 >[Ataque básico] <br>
 >![jshba](https://user-images.githubusercontent.com/55221433/149081805-64b6e67f-e11a-48e8-a5c2-4b1b9b76f27b.gif) <br>
@@ -33,11 +41,6 @@ ejemplo). Obviamente, solo a usuarios verificados con los emotes.
 >[Esquiva] <br>
 >![jshdash](https://user-images.githubusercontent.com/55221433/149082815-45683caf-7195-40c0-9a9c-3b506c9f543d.gif) <br>
 
-## **Ejemplos Narrativa**
-La narrativa es conceptual, en principio serán montajes (texto + gif) que haga con embeds de discord y el tratamiento de las imágenes con Aseprite.<br> 
-En un futuro me gustaría actualizar todo esto a algo más viable. <br>
-https://www.aseprite.org/ <br>
-![image](https://user-images.githubusercontent.com/55221433/149410554-eba85e0b-202c-4894-9fe8-d7cad219b320.png)
 
 ## **Roadmap**
 
