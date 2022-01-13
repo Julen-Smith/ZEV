@@ -37,7 +37,7 @@ ejemplo). Obviamente, solo a usuarios verificados con los emotes.
 La narrativa es conceptual, en principio serán montajes (texto + gif) que haga con embeds de discord y el tratamiento de las imágenes con Aseprite.<br> 
 En un futuro me gustaría actualizar todo esto a algo más viable. <br>
 https://www.aseprite.org/ <br>
-![image](https://user-images.githubusercontent.com/55221433/149409891-296db495-09fa-43aa-9306-d6c7f4ed543f.png)
+![image](https://user-images.githubusercontent.com/55221433/149410554-eba85e0b-202c-4894-9fe8-d7cad219b320.png)
 
 ## **Roadmap**
 
