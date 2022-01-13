@@ -34,8 +34,9 @@ ejemplo). Obviamente, solo a usuarios verificados con los emotes.
 >![jshdash](https://user-images.githubusercontent.com/55221433/149082815-45683caf-7195-40c0-9a9c-3b506c9f543d.gif) <br>
 
 ## **Ejemplos Narrativa**
-La narrativa es conceptual, en principio serán montajes (texto + gif) que haga con embeds de discord y las imágenes con Aseprite. En un futuro me gustaría actualizar todo esto a algo más viable.
-https://www.aseprite.org/
+La narrativa es conceptual, en principio serán montajes (texto + gif) que haga con embeds de discord y el tratamiento de las imágenes con Aseprite.<br> 
+En un futuro me gustaría actualizar todo esto a algo más viable. <br>
+https://www.aseprite.org/ <br>
 ![image](https://user-images.githubusercontent.com/55221433/149409891-296db495-09fa-43aa-9306-d6c7f4ed543f.png)
 
 ## **Roadmap**
